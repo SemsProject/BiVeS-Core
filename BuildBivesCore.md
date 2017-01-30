@@ -1,17 +1,16 @@
 Build /Bives-Core 
 ==================
+
 When you've cloned the source code:
 
-```
-#!sh
+```sh
 git clone git://sems.uni-rostock.de/bives-core
 ```
 
 There are two supported options to build this project:
 
-* [Build with Maven](//BuildBivesCore#BuildwithMaven)
-* [Build with Ant](//BuildBivesCore#BuildwithAnt)
-
+* [Build with Maven](#build-with-maven)
+* [Build with Ant](#build-with-ant)
 
 
 Build with Maven 

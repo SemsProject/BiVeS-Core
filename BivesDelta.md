@@ -1,2 +1,2 @@
-The Delta produced by /BiVeS 
+The Delta produced by BiVeS 
 =============================
