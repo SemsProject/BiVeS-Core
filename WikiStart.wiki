@@ -1,0 +1,34 @@
+= BiVeS - Core =
+
+this is the core library for comparison of computational models (or XML encoded documents in general)
+
+* MarkUp
+* TypeSetting
+* [[API]]
+* ModelValidator
+* BivesSupportsMoreThanAllowed
+
+* package: source:src/main/java/de/unirostock/sems/bives 
+
+* include BiVeS-Core via Maven: ([http://mvn.sems.uni-rostock.de/releases/de/unirostock/sems/BiVeS-Core/ find latest version id], import the [https://sems.uni-rostock.de/2013/10/maven-repository/ SEMS Maven repository])
+{{{
+#!xml
+<dependency>
+    <groupId>de.unirostock.sems</groupId>
+    <artifactId>BiVeS-Core</artifactId>
+    <version>$VERSION</version>
+</dependency>
+}}}
+
+== Build ==
+
+* learn how to BuildBivesCore
+
+== Starting Points ==
+
+ * TracGuide --  Built-in Documentation
+ * [http://trac.edgewall.org/ The Trac project] -- Trac Open Source Project
+ * [http://trac.edgewall.org/wiki/TracFaq Trac FAQ] -- Frequently Asked Questions
+ * TracSupport --  Trac Support
+
+For a complete list of local wiki pages, see TitleIndex.

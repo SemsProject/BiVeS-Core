@@ -1,0 +1,25 @@
+= Convert [MarkUp#MarkupDocument MarkupDocuments] to REPORTS in certain formats =
+BiVeS knows some classes (extending [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/Typesetting.html Typesetting]) able to convert format independent [MarkUp#MarkupDocument MarkupDocuments] into certain formats, such as [TypeSetting#HTML HTML] or [TypeSetting#MarkDown MarkDown]
+
+== HTML ==
+* source:src/main/java/de/unirostock/sems/bives/markup/TypesettingHTML.java ([http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/TypesettingHTML.html JavaDoc])
+* HTML report looks like: ReportHtml
+* you can simply integrate it to your website
+* plus some CSS rules to add some layout, see ReportHtml
+
+== !MarkDown ==
+* source:src/main/java/de/unirostock/sems/bives/markup/TypesettingMarkDown.java ([http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/TypesettingMarkDown.html JavaDoc])
+* learn more about [https://en.wikipedia.org/wiki/Markdown MarkDown]
+* exported !MarkDown looks like XXX
+* convertable to serveral other formats -> convenient to integrate 
+
+== !ReStructuredText ==
+* source:src/main/java/de/unirostock/sems/bives/markup/TypesettingReStructuredText.java ([http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/TypesettingReStructuredText.html JavaDoc])
+* learn more about [https://en.wikipedia.org/wiki/ReStructuredText ReStructuredText]
+* exported !ReStructuredText looks like XXX
+* convertable to serveral other formats -> convenient to integrate 
+
+== Add Your Own Report Layout ==
+* you need to extend source:src/main/java/de/unirostock/sems/bives/markup/Typesetting.java ([http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/Typesetting.html JavaDoc])
+* in [ markup] you'll get a [MarkUp#MarkupDocument MarkupDocument], TODO: document how to replace static stuff
+* pass it to [[API#GetaReport]]

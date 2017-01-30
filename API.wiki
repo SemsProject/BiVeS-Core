@@ -1,0 +1,25 @@
+= API =
+BiVeS provides a sophisticated API, see source:src/main/java/de/unirostock/sems/bives/api 
+
+== API for Comparison of two Documents ==
+
+* super class (abstract): source:src/main/java/de/unirostock/sems/bives/api/Diff.java ([http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/api/Diff.html JavaDoc])
+ * compare two XML files: source:src/main/java/de/unirostock/sems/bives/api/RegularDiff.java ([http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/api/RegularDiff.html JavaDoc])
+ * bives-cellml:wiki also provides specialized API two compare two CellML files:  ([http://jdoc.sems.uni-rostock.de/BiVeS-CellML/de/unirostock/sems/bives/cellml/api/CellMLDiff.html JavaDoc])
+ * bives-sbml:wiki also provides specialized API two compare two SBML files:  ([http://jdoc.sems.uni-rostock.de/BiVeS-SBML/de/unirostock/sems/bives/sbml/api/SBMLDiff.html JavaDoc])
+
+=== Compare two versions ===
+
+=== Get a Report ===
+* different formats:
+ * HTML report: 
+ * own format: [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/api/Diff.html#getReport(de.unirostock.sems.bives.markup.Typesetting) getReport], provide an instance of your own  source:src/main/java/de/unirostock/sems/bives/markup/Typesetting.java class. (see TypeSetting#AddYourOwnReportLayout)
+
+=== Get a Graph ===
+* different formats:
+ * GraphML: see GraphmlFormatDescription
+ * JSON: see JsonGraphFormatDescription
+ * DOT: see DotFormatDescription
+
+== API for Information about a Single Document ==
+* TODO

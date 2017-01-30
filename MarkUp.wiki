@@ -1,0 +1,19 @@
+= Format-Independent Make-Up for reports =
+
+abstract mark up stuff to generate reports
+
+== !MarkUp Interface ==
+* used to markup certain atomic objects (which for example represent formulars/units/quantities etc.)
+* to add report independent markup use static methods in [MarkUp#MarkupDocument MarkupDocument]
+* see source:src/main/java/de/unirostock/sems/bives/markup/Markup.java  and [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/Markup.html JavaDoc]
+
+== !MarkupDocument ==
+* represents a document that can be layouted in different formats (e.g. [TypeSetting#HTML HTML] or [TypeSetting#MarkDown MarkDown])
+* provides static methods to insert format independent markup:
+ * [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#highlight(java.lang.String) highlight]: emphasizes a string (e.g. special word)
+ * [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#rightArrow() rightArrow]: produces a right arrow (e.g. -> or →)
+ * [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#multiply() multiply]: produces a multiply symbol (e.g. * or ·)
+ * [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#insert(java.lang.String) insert]: highlight something that was inserted
+ * [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#delete(java.lang.String) delete]: highlight something that was inserted
+ * [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#attribute(java.lang.String) attribute]: markup an attribute
+* see source:src/main/java/de/unirostock/sems/bives/markup/MarkupDocument.java and [http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html JavaDoc]
