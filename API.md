@@ -6,8 +6,8 @@ BiVeS provides a sophisticated API, see [API package](https://github.com/SemsPro
 API for Comparison of two Documents 
 ------------------------------------
 
- * super class (abstract): /src/main/java/de/unirostock/sems/bives/api/Diff.java ([JavaDoc](http://jdoc.sems.uni-rostock.de///BiVeS-Core/de/unirostock/sems/bives/api/Diff.html))
- * compare two XML files: /src/main/java/de/unirostock/sems/bives/api/RegularDiff.java ([JavaDoc](http://jdoc.sems.uni-rostock.de///BiVeS-Core/de/unirostock/sems/bives/api/RegularDiff.html))
+ * super class (abstract): `/src/main/java/de/unirostock/sems/bives/api/Diff.java` ([JavaDoc](http://jdoc.sems.uni-rostock.de///BiVeS-Core/de/unirostock/sems/bives/api/Diff.html))
+ * compare two XML files: `/src/main/java/de/unirostock/sems/bives/api/RegularDiff.java` ([JavaDoc](http://jdoc.sems.uni-rostock.de///BiVeS-Core/de/unirostock/sems/bives/api/RegularDiff.html))
  * bives-cellml:wiki also provides specialized API two compare two CellML files:  ([JavaDoc](http://jdoc.sems.uni-rostock.de///BiVeS-CellM/L/de/unirostock/sems/bives/cellml/api/CellMLDiff.html))
  * bives-sbml:wiki also provides specialized API two compare two SBML files:  ([JavaDoc](http://jdoc.sems.uni-rostock.de///BiVeS-SBML/de/unirostock/sems/bives/sbml/api/SBMLDiff.html))
 
@@ -21,9 +21,9 @@ Compare two versions
 
 ### Get a Graph 
 * different formats:
- * GraphML: see /GraphmlFormatDescription
- * JSON: see /JsonGraphFormatDescription
- * DOT: see /DotFormatDescription
+ * GraphML: see [Graphml Format Description](GraphmlFormatDescription)
+ * JSON: see [Json Graph Format Description](JsonGraphFormatDescription)
+ * DOT: see [Dot Format Description](DotFormatDescription)
 
 API for Information about a Single Document 
 --------------------------------------------
