@@ -1,13 +1,13 @@
 Graphs encoded in JSON 
 =======================
+
 * e.g. to pass them to [CytoscapeJS](http://cytoscape.github.io/cytoscape.js/)
 * TODO: detailed description of the graph
 * TODO: how to configure CytoscapeJS (stylesheet, javascripts)
 * TODO: demo
 * example Graph:
 
-```
-#!js
+```json
 {
 	"elements": {
 		"edges": [

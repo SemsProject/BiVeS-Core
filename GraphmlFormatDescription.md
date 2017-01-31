@@ -1,14 +1,14 @@
 Graphs encoded in GraphML 
 ==========================
+
 * e.g. to pass them to [CytoscapeWeb](http://cytoscapeweb.cytoscape.org/)
 * TODO: detailed description of the graph (what are these keys? subgraphs etc)
 * see also [GraphML](https://en.wikipedia.org/wiki/GraphML)
-* TODO: how to configure /CytoscapeWeb (javascripts etc)
+* TODO: how to configure CytoscapeWeb (javascripts etc)
 * TODO: demo
 * example Graph:
 
-```
-#!xml
+```xml
 <graphml>
 	<key attr.name="name" attr.type="string" for="node" id="name"/>
 	<key attr.name="node set" attr.type="string" for="node" id="ns">

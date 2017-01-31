@@ -1,9 +1,9 @@
 Report encoded in HTML 
 =======================
-For convenience, /BiVeS also produces an HTML report which can simply be included into existing web interfaces. For example, you can just dump it into a ```div``` container of your website. To highlight different parts in the report /BiVeS add some CSS classes to the element and you just need to define additional CSS rules, such as:
 
-```
-#!css
+For convenience, BiVeS also produces an HTML report which can simply be included into existing web interfaces. For example, you can just dump it into a `div` container of your website. To highlight different parts in the report BiVeS add some CSS classes to the element and you just need to define additional CSS rules, such as:
+
+```css
 .bives-insert
 {
   /* inserts - color them green for example */
@@ -50,4 +50,4 @@ bives-math-modified
 }
 ```
 
-Here, ```.bives-suppl` is used for entities that do not describe differences. They are just included to provide a better overview over the model. You might want to set them to `display: none;``` to decrease the bloat, and instead add a button which toggles their visibility.
+Here, `.bives-suppl` is used for entities that do not describe differences. They are just included to provide a better overview over the model. You might want to set them to `display: none;` to decrease the bloat, and instead add a button which toggles their visibility.
