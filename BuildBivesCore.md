@@ -4,7 +4,7 @@ Build Bives-Core
 When you've cloned the source code:
 
 ```sh
-git clone git://sems.uni-rostock.de/bives-core
+git clone git@github.com:SemsProject/BiVeS-Core.git
 ```
 
 There are two supported options to build this project:
