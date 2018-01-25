@@ -8,7 +8,7 @@ MarkUp Interface
 
 * used to markup certain atomic objects (which for example represent formulars/units/quantities etc.)
 * to add report independent markup use static methods in [MarkupDocument](#markup-document)
-* see /src/main/java/de/unirostock/sems/bives/markup/Markup.java  and [JavaDoc](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/Markup.html)
+* see [/src/main/java/de/unirostock/sems/bives/markup/Markup.java](https://github.com/SemsProject/BiVeS-Core/tree/master/src/main/java/de/unirostock/sems/bives/markup/Markup.java)  and [JavaDoc](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/Markup.html)
 
 Markup Document 
 ----------------
@@ -21,4 +21,4 @@ Markup Document
  * [insert](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#insert(java.lang.String)): highlight something that was inserted
  * [delete](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#delete(java.lang.String)): highlight something that was inserted
  * [attribute](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html#attribute(java.lang.String)): markup an attribute
-* see /src/main/java/de/unirostock/sems/bives/markup/MarkupDocument.java and [JavaDoc](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html)
+* see [/src/main/java/de/unirostock/sems/bives/markup/MarkupDocument.java](https://github.com/SemsProject/BiVeS-Core/tree/master/src/main/java/de/unirostock/sems/bives/markup/MarkupDocument.java) and [JavaDoc](http://jdoc.sems.uni-rostock.de/BiVeS-Core/de/unirostock/sems/bives/markup/MarkupDocument.html)
